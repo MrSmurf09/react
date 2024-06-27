@@ -1,4 +1,4 @@
-import { PublicRoutes, SubMenuRoutes } from "../../models/routes.model";
+//import { PublicRoutes, SubMenuRoutes } from "../../models/routes.model";
 import Styles from "./navbar2.module.css";
 import { Link } from "react-router-dom";
 
@@ -15,7 +15,7 @@ const Navbar2 = () => {
                   <ul>
                     <li><Link to="">Kaiju n°8</Link></li>
                     <li><Link to="">Gachiakuta</Link></li>
-                    <li><Link to={`${PublicRoutes.HOME}${SubMenuRoutes.Hells_Paradise}`}>Hells Paradide</Link></li>
+                    <li><Link to="">Hells Paradide</Link></li>
                   </ul>
                 </li>
                 <li><Link to="">Trending</Link></li>
